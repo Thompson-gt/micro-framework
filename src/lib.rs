@@ -121,6 +121,7 @@ mod tests {
     }
     #[test]
     fn add_to_many_middlewares() {
+
         // default limit is 5
         let http = self::init_server();
         let _ = http.add_middleware_handler(
